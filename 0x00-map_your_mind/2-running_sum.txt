@@ -1,0 +1,5 @@
+sum = 0
+WHILE LOOP:
+INPUT number 
+number > 0
+sum = sum + number
