@@ -1,0 +1,5 @@
+INPUT number1
+INPUT number2
+sum = 0
+sum = (number 1 * number1) + (number2 * number2)
+
