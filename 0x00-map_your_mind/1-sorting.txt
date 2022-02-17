@@ -1,0 +1,22 @@
+INPUT number1
+INPUT number2
+INPUT number3
+IF number1 > number2 AND number1 > number3 THEN
+	IF number2 > number3
+		print number1,number2,number3
+	ElSE
+		print number1,number3,number2
+	END IF
+ELSEIF number2 > number1 AND number2 > number3 THEN
+	IF number1 > number3
+		print number2,number1,number3
+	ELSE
+		print number2,number3,number1
+	END IF
+ELSE 
+	IF number1 > number2
+		print number3,number1,number2
+	ELSE
+		print number3,number2,number1
+	END IF
+END IF
